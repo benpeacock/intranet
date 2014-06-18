@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/adelevie/parse_resource.git
+  revision: 532e3a6b73fdf25ea795a81bb74f20115fc64d75
+  specs:
+    parse_resource (1.8.0)
+      activemodel
+      activesupport
+      json
+      rest-client
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,6 +46,9 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.2.0)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     hike (1.2.3)
     i18n (0.6.9)
     jbuilder (1.5.3)
@@ -76,6 +89,8 @@ GEM
     rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -113,8 +128,10 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  figaro
   jbuilder (~> 1.2)
   jquery-rails
+  parse_resource!
   rails (= 4.0.4)
   rails_12factor
   sass-rails (~> 4.0.2)

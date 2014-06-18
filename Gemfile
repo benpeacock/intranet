@@ -48,3 +48,9 @@ end
 
 # Use Rails_12factor to manage asset pipeline in production
 gem 'rails_12factor'
+
+# Use gem to connect to Parse API
+gem 'parse_resource', github: 'adelevie/parse_resource'
+
+# Use Figaro to hide all the secrets
+gem 'figaro'
