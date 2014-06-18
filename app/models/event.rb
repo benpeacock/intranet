@@ -1,2 +1,2 @@
-class Event < ActiveRecord::Base
+class Event < ParseResource::Base
 end
