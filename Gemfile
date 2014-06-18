@@ -51,7 +51,9 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Use Rails_12factor to manage asset pipeline in production
-gem 'rails_12factor'
+group :production do
+  gem 'rails_12factor'
+end
 
 # Use gem to connect to Parse API
 gem 'parse_resource', github: 'adelevie/parse_resource'
